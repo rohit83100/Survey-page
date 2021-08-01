@@ -1,0 +1,74 @@
+body {
+    background-image: url(https://image.freepik.com/free-vector/neon-grid-background_53876-91657.jpg);
+    font-family: Verdana;
+    text-align: center;
+}
+#description{
+color:white;
+}
+#survey-form {
+    background-color:none;
+color:white;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+h1{
+color:#DCDCDC;
+animation-name:formsurvey;
+animation-duration:3s;
+}
+@keyframes formsurvey{
+0%{
+top:-50px;
+}
+100%{
+top:60px
+}
+}
+/* Styling form-control Class */
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+/* Styling form-control Label */
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Styling form-control input,
+select, textarea */
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+/* Styling form-control Radio
+button and Checkbox */
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+/* Styling Button */
+button {
+    background-color: purple;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
